@@ -1,20 +1,20 @@
 * {
   box-sizing: border-box;
-}
-
-body {
   font-family: 'Ubuntu', sans-serif;
 }
+
 
 h1 {
   border: 10px solid red;
   border-radius: 5px;
   color: orange;
   font-size: 48px;
+  margin: 20px auto;
+  text-align: center;
 }
 
 h1::first-letter {
-  color: blue;
+  color: orangered;
 }
 
 .sub-heading {
@@ -32,36 +32,31 @@ h1::first-letter {
 
 .animal {
   background-color: lemonchiffon;
-  margin: 20px;
+  margin: 20px auto;
+  padding: 10px;
 }
 .mammal {
   background-color: yellow;
-  padding: 30px 5px;
 }
 .fish {
-  background-color: orangered;
-  padding-left: 50px;
-  padding-top: 10px;
+  background-color: salmon;
 }
 .bird {
-  background-color: lightblue;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: orange;
 }
 #best-animal {
-   background-color: springgreen;
+   background-color: lemonchiffon;
 }
-li {
-  width: 50%;
-}
+
 ul {
-  background-color: blue;
+  background-color: orangered;
+  border: 10px solid orangered;
 }
 
 .button {
   background-color: whitesmoke;
   width: 50%;
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px orangered;
   border: 10px solid black;
   border-radius: 10px;
   font-size: 32px;
@@ -71,4 +66,7 @@ ul {
 
 .button:hover {
   cursor: pointer;
+}
+h2 {
+  color: orangered;
 }
