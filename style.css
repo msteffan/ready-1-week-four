@@ -1,72 +1,54 @@
 * {
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
-}
-
+  font-family: 'Ubuntu', sans-serif; }
 
 h1 {
-  border: 10px solid red;
+  border: 10px solid orangered;
   border-radius: 5px;
   color: orange;
   font-size: 48px;
   margin: 20px auto;
-  text-align: center;
-}
+  text-align: center; }
+  h1::first-letter {
+    color: orangered; }
 
-h1::first-letter {
-  color: orangered;
-}
-
-.sub-heading {
-  text-align: center;
-}
-.sub-heading.tagline {
-  color: red;
-}
-.sub-heading.exhibit {
-  color: green;
-}
-.subheading.location {
-  color: orange;
-}
-
-.animal {
-  background-color: lemonchiffon;
-  margin: 20px auto;
-  padding: 10px;
-}
-.mammal {
-  background-color: yellow;
-}
-.fish {
-  background-color: salmon;
-}
-.bird {
-  background-color: orange;
-}
-#best-animal {
-   background-color: lemonchiffon;
-}
+h2 {
+  color: orangered; }
+  h2.sub-heading {
+    text-align: center; }
+    h2.sub-heading.tagline {
+      color: red; }
+    h2.sub-heading.exhibit {
+      color: green; }
+    h2.sub-heading.location {
+      color: orange; }
 
 ul {
   background-color: orangered;
-  border: 10px solid orangered;
-}
+  border: 10px solid orangered; }
+  ul .animal {
+    background-color: lemonchiffon;
+    margin: 20px auto;
+    padding: 10px; }
+    ul .animal.mammal {
+      background-color: yellow; }
+    ul .animal.fish {
+      background-color: salmon; }
+    ul .animal.bird {
+      background-color: orange; }
+    ul .animal#best-animal {
+      background-color: lemonchiffon; }
 
 .button {
   background-color: whitesmoke;
   width: 50%;
   text-shadow: 2px 2px orangered;
-  border: 10px solid black;
+  border: 10px solid orangered;
   border-radius: 10px;
   font-size: 32px;
   text-align: center;
-  margin: 20px auto;
-}
+  margin: 20px auto; }
+  .button:hover {
+    cursor: pointer; }
 
-.button:hover {
-  cursor: pointer;
-}
-h2 {
-  color: orangered;
-}
+/*# sourceMappingURL=style.css.map */
